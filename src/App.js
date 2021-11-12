@@ -1,10 +1,14 @@
+import Particles from 'react-tsparticles';
 import './App.css';
-import Navbar from './components/Navbar';
+import NavbarMenu from './components/NavbarMenu';
+import Particle from './components/ParticlesContainer';
 
 function App() {
   return (
     <>
-      <Navbar />
+      <NavbarMenu />
+      <Particle />
+      <div>hello</div>
     </>
   );
 }
