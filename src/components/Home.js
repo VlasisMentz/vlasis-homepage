@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import HomeLogo from '../assets/HomeLogo.png';
+import SecondHome from './SecondHome';
 import Type from './Type';
 
 const Home = () => {
@@ -29,6 +30,7 @@ const Home = () => {
           </Row>
         </Container>
       </Container>
+      <SecondHome />
     </section>
   );
 };

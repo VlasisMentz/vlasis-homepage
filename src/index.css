@@ -33,7 +33,7 @@ body {
 }
 .home-section {
   position: relative;
-  padding-top: 270px;
+  padding-top: 320px;
   margin-left: 45px;
 }
 .home-section h1 {
@@ -87,4 +87,7 @@ body {
   100% {
     transform: rotate(0deg);
   }
+}
+.second-home-section {
+  margin-top: 150px;
 }

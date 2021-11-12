@@ -8,7 +8,7 @@ const Type = () => {
         strings: [
           'Front End Enthusiast',
           'React Developer',
-          'software engineer',
+          'Software Engineer',
           'Ninja',
         ],
         autoStart: true,
