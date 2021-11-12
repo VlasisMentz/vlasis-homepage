@@ -34,10 +34,25 @@ body {
 .home-section {
   position: relative;
   padding-top: 270px;
-  margin-left: 100px;
+  margin-left: 45px;
 }
 .home-section h1 {
   color: white;
+}
+.heading {
+  padding-left: 157px;
+}
+.my-name {
+  color: #599934;
+}
+.type-animation {
+  margin-top: 30px;
+  color: white;
+  font-size: 2.4rem;
+}
+.home-image-logo {
+  width: 500px;
+  margin-top: -50px;
 }
 /* Hand animation in homepage */
 .wave {
