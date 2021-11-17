@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Type from './Type';
 import HomeLogo from '../assets/HomeLogo.png';
-import SecondHome from './SecondHome';
 
 const HomePage = () => {
   return (

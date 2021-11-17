@@ -4,6 +4,9 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
+  /* Colors */
+  --clr-primary-1: #03494a;
+  --clr-primary-2: #035152;
 }
 * {
   font-family: 'Montserrat', sans-serif;
@@ -13,13 +16,17 @@ body {
   padding: 0;
   letter-spacing: 0.1rem;
 }
+h3 {
+  font-size: 1.2em;
+  font-weight: lighter;
+}
 .navbar {
   background: transparent;
   font-weight: 600;
   transition: 0.8s;
 }
 .navbar.active {
-  background: #03494a;
+  background: var(--clr-primary-2);
   transition: 0.8s;
 }
 .nav-link {
@@ -91,9 +98,6 @@ body {
   100% {
     transform: rotate(0deg);
   }
-}
-.second-home-section {
-  margin-top: 150px;
 }
 /* Spinner Loader */
 
@@ -265,4 +269,22 @@ body {
     -webkit-transform: translate(100%, 100%);
     transform: translate(100%, 100%);
   }
+}
+
+/* Footer */
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--clr-primary-2);
+  margin-top: 250px;
+  color: white;
+}
+.footer-designed {
+  text-align: center;
+}
+.footer-copywright {
+  text-align: center;
+}
+.footer-logo {
+  text-align: center;
 }
