@@ -3,6 +3,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Logo from '../assets/Logo.png';
+import {
+  AiOutlineHome,
+  AiOutlineFundProjectionScreen,
+  AiOutlineUser,
+  AiOutlineContacts,
+} from 'react-icons/ai';
 
 const NavbarMenu = () => {
   //Set css navbar color to transparent or solid
@@ -31,16 +37,20 @@ const NavbarMenu = () => {
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ms-auto'>
             <Nav.Link className='nav-link' href='#home'>
-              Home
+              <AiOutlineHome style={{ marginBottom: '2px' }} /> Home
             </Nav.Link>
             <Nav.Link className='nav-link' href='#link'>
-              About
+              <AiOutlineUser style={{ marginBottom: '2px' }} /> About
             </Nav.Link>
             <Nav.Link className='nav-link' href='#link'>
+              {' '}
+              <AiOutlineFundProjectionScreen
+                style={{ marginBottom: '2px' }}
+              />{' '}
               Projects
             </Nav.Link>
             <Nav.Link className='nav-link' href='#link'>
-              Contact
+              <AiOutlineContacts style={{ marginBottom: '2px' }} /> Contact
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -22,8 +22,9 @@ h3 {
 }
 .navbar {
   background: transparent;
-  font-weight: 600;
   transition: 0.8s;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .navbar.active {
   background: var(--clr-primary-2);
@@ -31,6 +32,7 @@ h3 {
 }
 .nav-link {
   margin-right: 40px;
+  font-size: large;
 }
 #particles-js {
   position: fixed;
@@ -275,7 +277,11 @@ h3 {
 .footer {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: var(--clr-primary-2);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 60, 60, 1) 0%,
+    rgba(3, 81, 82, 1) 93%
+  );
   margin-top: 250px;
   color: white;
 }
@@ -283,6 +289,7 @@ h3 {
   text-align: center;
 }
 .footer-copywright {
+  padding-top: 15px;
   text-align: center;
 }
 .footer-logo {
