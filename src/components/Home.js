@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import HomePage from './HomePage';
-import Footer from './Footer';
 import SpinnerLoader from './SpinnerLoader';
 
 const Home = () => {
@@ -19,7 +18,6 @@ const Home = () => {
       ) : (
         <>
           <HomePage />
-          <Footer />
         </>
       )}
     </>

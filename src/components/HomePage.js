@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Type from './Type';
 import HomeLogo from '../assets/HomeLogo.png';
+import Footer from './Footer';
 
 const HomePage = () => {
   return (
@@ -27,6 +28,7 @@ const HomePage = () => {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </section>
   );
 };
