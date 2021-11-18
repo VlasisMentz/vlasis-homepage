@@ -51,6 +51,7 @@ h3 {
 .home-section {
   position: relative;
   padding-top: 320px;
+  margin-bottom: 110px;
 }
 .home-section h1 {
   color: white;
@@ -276,13 +277,12 @@ h3 {
 /* Footer */
 .footer {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 3px;
   background: linear-gradient(
     90deg,
     rgba(2, 60, 60, 1) 0%,
     rgba(3, 81, 82, 1) 93%
   );
-  margin-top: 250px;
   color: white;
 }
 .footer-designed {

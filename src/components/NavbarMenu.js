@@ -9,6 +9,7 @@ import {
   AiOutlineUser,
   AiOutlineContacts,
 } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 const NavbarMenu = () => {
   //Set css navbar color to transparent or solid
@@ -36,20 +37,30 @@ const NavbarMenu = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ms-auto'>
-            <Nav.Link className='nav-link' href='#home'>
+            <Nav.Link as={Link} to='/' className='nav-link' href='/'>
               <AiOutlineHome style={{ marginBottom: '2px' }} /> Home
             </Nav.Link>
-            <Nav.Link className='nav-link' href='#link'>
+            <Nav.Link as={Link} to='/about' className='nav-link' href='/About'>
               <AiOutlineUser style={{ marginBottom: '2px' }} /> About
             </Nav.Link>
-            <Nav.Link className='nav-link' href='#link'>
+            <Nav.Link
+              as={Link}
+              to='/projects'
+              className='nav-link'
+              href='/projects'
+            >
               {' '}
               <AiOutlineFundProjectionScreen
                 style={{ marginBottom: '2px' }}
               />{' '}
               Projects
             </Nav.Link>
-            <Nav.Link className='nav-link' href='#link'>
+            <Nav.Link
+              as={Link}
+              to='/contact'
+              className='nav-link'
+              href='/contact'
+            >
               <AiOutlineContacts style={{ marginBottom: '2px' }} /> Contact
             </Nav.Link>
           </Nav>
