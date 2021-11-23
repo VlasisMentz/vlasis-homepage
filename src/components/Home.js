@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import HomePage from './HomePage';
-import SpinnerLoader from './SpinnerLoader';
-import Footer from './Footer';
+import React, { useState, useEffect } from "react";
+import HomePage from "./HomePage";
+import SpinnerLoader from "./SpinnerLoader";
+import Footer from "./Footer";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
     setIsLoading(true);
     setTimeout(() => {
@@ -19,7 +20,6 @@ const Home = () => {
       ) : (
         <>
           <HomePage />
-          <Footer />
         </>
       )}
     </>

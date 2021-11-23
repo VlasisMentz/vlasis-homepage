@@ -5,19 +5,16 @@ import ParticlesContainer from './components/ParticlesContainer';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
+import Layout from "./components/Layout";
 import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Routes,
-} from 'react-router-dom';
+  BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div>
       <Router>
         <ParticlesContainer />
-        <NavbarMenu />
+      <Layout/>
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/about' element={<About />} />
