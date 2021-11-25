@@ -340,16 +340,18 @@ h3 {
     margin-left: 10%;
     margin-right: 10%;
 }
+
 .about-container {
     justify-content: center;
     padding-top: 13%;
     margin-bottom: 5%;
 }
+
 .about2-container {
     justify-content: center;
     padding-top: 10px;
     text-align: center;
-    color:white;
+    color: white;
     margin-bottom: 10%;
 }
 
@@ -377,20 +379,24 @@ h3 {
     transition: all 0.4s ease 0s;
     /*box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);*/
 }
+
 .skill-icons:hover {
     transform: scale(1.10);
     overflow: hidden;
     border: 2px solid var(--clr-primary-4);
 
 }
+
 @media (max-width: 767px) {
     .home-header {
         margin-bottom: 10%;
     }
+
     .home-section {
-        padding-top:35%;
+        padding-top: 35%;
     }
 }
+
 /*@media (max-width: 767px) {*/
 /*    .skill-icons {*/
 /*        margin: 10px !important;*/
@@ -401,6 +407,7 @@ h3 {
     color: var(--clr-primary-3);
 
 }
+
 .profile-container {
     margin-top: 6%;
     margin-bottom: 3%;
@@ -415,39 +422,67 @@ h3 {
     padding-left: 12%;
     text-align: center;
 }
+
 .profile-container strong {
     color: var(--clr-names-blue);
     height: 100%;
 }
+
 .contact-container {
     padding-top: 15%;
     padding-right: 30%;
     padding-left: 30%;
     padding-bottom: 8.2%;
-    color:white;
+    color: white;
 }
+
 .input-form {
     background-color: #0c333b;
     border: 1px solid #4a8b41;
     color: white;
 }
+
 .input-form:focus {
     background-color: #03494a;
     border: 1px solid #00514f;
     color: white;
 
 }
+
 .form-button {
     background-color: #1b553f;
     border: none;
 }
+
 .form-button:hover {
     background-color: #4a8b41;
 }
+
 .form-group {
     padding-bottom: 4%;
 }
+
 .contact-container h2 {
     padding-bottom: 25px;
     text-align: center;
+}
+
+.project-section {
+    position: relative;
+    padding-top: 150px;
+}
+
+.projects-heading {
+    text-align: center;
+
+}
+.projects-heading strong {
+    color: #007900;
+}
+.projects-card {
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+    padding-left: 25px ;
+    padding-right: 25px ;
+    height: auto ;
 }
