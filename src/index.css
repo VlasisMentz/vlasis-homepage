@@ -11,6 +11,13 @@
     --clr-primary-4: #e0fa0a;
     --clr-names-green: #599934;
     --clr-names-blue: #035152;
+    --clr-gradient: linear-gradient(
+            to top,
+            #7c8344,
+            #4a8b41,
+            #006f51,
+            #00514f,
+            #0c333b);
 }
 
 * {
@@ -467,22 +474,70 @@ h3 {
     text-align: center;
 }
 
+/*Project Page*/
+
 .project-section {
     position: relative;
     padding-top: 150px;
+    padding-bottom: 130px;
+    padding-right: 8%;
+    padding-left: 8%;
 }
 
 .projects-heading {
+    margin-bottom: 30px;
     text-align: center;
+    color: white;
 
 }
+
 .projects-heading strong {
     color: #007900;
 }
-.projects-card {
-    padding-top: 50px ;
-    padding-bottom: 50px ;
-    padding-left: 25px ;
-    padding-right: 25px ;
-    height: auto ;
+
+.project-card {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: auto;
+}
+
+.project-card-view {
+    background-color: transparent;
+    color: white;
+    /*border: 2px solid yellow;*/
+    box-shadow: 0 4px 5px 3px rgba(0, 0, 0, 0.46);
+    height: 100%;
+    transition: all 0.5s ease 0s;
+    text-align: center;
+}
+
+.project-card-view:hover {
+    transform: scale(1.04);
+    overflow: hidden;
+    box-shadow: 0 4px 4px 5px rgba(13, 47, 99, 0.56);
+}
+
+.card-img-top {
+    padding: 20px;
+    /*opacity: 0.8;*/
+    border-radius: 10px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0c333b;
+    border-color: #0c333b;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #00514f;
+    border-color: #00514f;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
 }
